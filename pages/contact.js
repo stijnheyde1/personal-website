@@ -9,40 +9,39 @@ export default function CV() {
           <h1 className="text-xl font-bold">Stijn Heyde</h1>
           <nav className="space-x-6">
             <Link href="/">Home</Link>
-            <Link href="/cv" className="font-semibold">CV</Link>
+            <Link href="/cv">CV/Resume</Link>
             <Link href="/blog">Blog</Link>
             <Link href="/research">Research</Link>
-            <Link href="/contact">Contact</Link>
+            <Link href="/contact" className="font-semibold">Contact</Link>
           </nav>
         </div>
       </header>
 
       <main className="max-w-5xl mx-auto p-6">
-        <h2 className="text-3xl font-bold mb-6">CV</h2>
+        <h2 className="text-3xl font-bold mb-6">Contact</h2>
         <section className="mb-6">
-          <h3 className="text-xl font-semibold mb-2">Education</h3>
+          <h3 className="text-xl font-semibold mb-2">LinkedIn</h3>
           <ul className="list-disc list-inside text-gray-700">
-            <li>Bachelor of Electrical Engineering - KU Leuven (2022 - present)</li>
-            <li>Exchange Semester - Technical University of Munich (2024)</li>
+            <a href="https://www.linkedin.com/in/stijn-heyde" target="_blank" rel="noreferrer" className="text-blue-600">in/stijn-heyde</a>
           </ul>
         </section>
 
         <section className="mb-6">
-          <h3 className="text-xl font-semibold mb-2">Skills</h3>
-          <ul className="list-disc list-inside text-gray-700">
-            <li>MATLAB, Python, C/C++</li>
-            <li>Circuit Design & Simulation</li>
-            <li>Microcontrollers & Embedded Systems</li>
-          </ul>
+          <h3 className="text-xl font-semibold mb-2">Contact Form</h3>
+          
         </section>
 
-        <section>
-          <h3 className="text-xl font-semibold mb-2">Experience</h3>
-          <ul className="list-disc list-inside text-gray-700">
-            <li>Internship at XYZ Electronics (Summer 2023)</li>
-            <li>Research Assistant at KU Leuven (2023 - present)</li>
-          </ul>
-        </section>
+        <form action="https://formspree.io/f/myzlyola" method="POST" className="space-y-4">
+          <input type="text" name="name" placeholder="Name" required className="w-full border rounded px-3 py-2" />
+          <input type="email" name="email" placeholder="Email" required className="w-full border rounded px-3 py-2" />
+          <textarea name="message" placeholder="Message" rows="5" required className="w-full border rounded px-3 py-2" />
+          {/* simple honeypot to reduce spam */}
+          <input type="text" name="_gotcha" className="hidden" tabIndex="-1" autoComplete="off" />
+          <button type="submit" className="rounded bg-blue-600 text-white px-4 py-2">Send</button>
+        </form>
+
+
+        
       </main>
 
       <footer className="bg-white border-t mt-10">
