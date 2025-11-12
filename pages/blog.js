@@ -20,8 +20,16 @@ export default function CV() {
       <main className="max-w-5xl mx-auto p-6">
         <h2 className="text-3xl font-bold mb-6">Blog: Studying at Columbia University</h2>
 
-        <section className="mb-2">
-          <h3 className="text-xl font-semibold mb-2">First Day in New York City</h3>
+        <section className="mb-10">
+          <div className="flex items-center justify-between mb-2">
+            <h3 className="text-2xl font-semibold">First Day in New York City</h3>
+            <div className="flex items-center flex-shrink-0">
+              {/* Thin line */}
+              <div className="border-t border-gray-400 w-20 mr-3"></div>
+              {/* Date */}
+              <span className="text-gray-500 text-5sm italic">August 16, 2025</span>
+            </div>
+          </div>
           I landed in New York on August 16th, after a 13 hours of travelling from Belgium. 
           By the time I reached the hostel where I’d spend my first night, it was late afternoon.
           Without much of a plan, I decided to wander wherever seemed interesting.
@@ -47,17 +55,67 @@ export default function CV() {
         </section>
 
         
-        <section className="mb-2">
-          <h3 className="text-xl font-semibold mb-2">Internship at Melexis</h3>
-          I landed in New York on August 16th, after a 13 hours of travelling from Belgium. 
+        <section className="mb-10">
+          <div className="flex items-center justify-between mb-2">
+            <h3 className="text-2xl font-semibold">Internship at Melexis</h3>
+            <div className="flex items-center flex-shrink-0">
+              {/* Thin line */}
+              <div className="border-t border-gray-400 w-20 mr-3"></div>
+              {/* Date */}
+              <span className="text-gray-500 text-5sm italic">August 13, 2025</span>
+            </div>
+          </div>
+          Before setting of to Columbia, I joined the Melexis R&D team during an internship at their site in Ypres.
+          The topic for my internship at Melexis was improving a High-Bandwidth Output Amplifier.
+          This amplifier forms a part of a current sensor's architecture, 
+          the project explored how its bandwidth could be extended for the new sensor beyond that of the existing design.
+          In doing so, the focus was also on pushing the limits of the technology node for this block and
+          understanding the factors that constrain its performance. The results provide insight into how
+          this block behaves under a wide range of operating conditions and offers a clearer view of the
+          trade-offs involved in reaching higher bandwidths.
           
+          This industrial experience at Melexis was split into two parts. With the first taking place from 3rd
+          until 18th of July, the second part ran from 4th until 13th of August, making for a total of 4 workweeks. 
+          I commuted from home to the site in Ypres by car each day.
+          About once per week I made the trip by bike, this was possible since I could arrive and start
+          working at whatever time suited me. Allowing me to enjoy some cycling before going to New York.
+
+          I found the internship very useful, as it gave me the opportunity to spend more time working extensively with Cadence. 
+          In addition, I gained a good understanding of how the team collaborates within a larger organization and how communication flows between the system architect and the designers. 
+          I would definitely recommend this experience to anyone that wants to work in the field.
+                    
           {/* Images */}
           <div className="mt-6 grid gap-4">
             <img
-              src="images/first_day.jpg"
+              src="images/Melexis_logo.png"
               alt="Chelsea Market"
-              width={1000}
-              height={1000}
+              width={500}
+              height={500}
+              className="rounded-xl shadow-lg mx-auto"
+            />
+            
+          </div>
+        </section>
+
+        <section className="mb-10">
+          <div className="flex items-center justify-between mb-2">
+            <h3 className="text-2xl font-semibold">Melexis - Columbia Grant Ceremony</h3>
+            <div className="flex items-center flex-shrink-0">
+              {/* Thin line */}
+              <div className="border-t border-gray-400 w-20 mr-3"></div>
+              {/* Date */}
+              <span className="text-gray-500 text-5sm italic">April 2, 2025</span>
+            </div>
+          </div>
+          
+                    
+          {/* Images */}
+          <div className="mt-6 grid gap-4">
+            <img
+              src="images/grant.png"
+              alt="Chelsea Market"
+              width={500}
+              height={500}
               className="rounded-xl shadow-lg mx-auto"
             />
             

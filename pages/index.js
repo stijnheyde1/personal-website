@@ -40,7 +40,7 @@ export default function Home() {
           <div className="rounded-2xl bg-white p-5 shadow">
             <h3 className="text-lg font-semibold">Experience</h3>
             <p className="mt-1 text-gray-700">Educations, internship, projects</p>
-            <Link href="/research" className="mt-3 inline-block text-blue-600">View CV/Resume →</Link>
+            <Link href="/cv" className="mt-3 inline-block text-blue-600">View CV/Resume →</Link>
           </div>
           
           <div className="rounded-2xl bg-white p-5 shadow">

@@ -135,19 +135,19 @@ export default function CV() {
         <section className="mb-8">
           <h3 className="text-xl font-semibold mb-3">Languages</h3>
           <ul className="list-disc list-inside text-gray-700 space-y-1">
-            <li>Dutch — native</li>
-            <li>English — fluent</li>
-            <li>French — conversational</li>
+            <li>Dutch - native</li>
+            <li>English - fluent</li>
+            <li>French - conversational</li>
           </ul>
         </section>
 
         {/* Highlights */}
         <section className="mb-2">
-          <h3 className="text-xl font-semibold mb-3">Achievements</h3>
+          <h3 className="text-xl font-semibold mb-3">Academic Achievements</h3>
           <ul className="list-disc list-inside text-gray-700 space-y-1">
-            <li>Endurance sports: long‑distance cycling & Full Ironman (Age Group), 2020–2024.</li>
             <li>2025 Melexis–Columbia grant (covers Columbia tuition cost).</li>
-            <li>2× VWO Finalist (Flemish Math Olympiad), 2019–2021.</li>
+            <li>Highest weighted score for a first-year engineering student 2021-2022 at Kulak Campus.</li>
+            <li>2× VWO Finalist (Flemish Math Olympiad) 2019 and 2021, place 6 out of 11.441 students in first round 2020.</li>
           </ul>
         </section>
       </main>
@@ -161,3 +161,7 @@ export default function CV() {
     </div>
   );
 }
+
+
+
+{/*<li>Endurance sports: long‑distance cycling & Full Ironman (Age Group), 2020–2024.</li>*/}
