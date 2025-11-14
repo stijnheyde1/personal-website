@@ -46,13 +46,14 @@ export default function CV() {
                 <span className="text-sm text-gray-500">Sep 2024 – Present</span>
               </div>
               <p className="text-gray-700">KU Leuven</p>
+              <p className="text-gray-700">Columbia University</p>
             </div>
             <div>
               <div className="flex flex-wrap items-baseline justify-between gap-2">
                 <p className="font-semibold">B.Sc. Engineering Sciences</p>
                 <span className="text-sm text-gray-500">Sep 2021 – Jul 2024</span>
               </div>
-              <p className="text-gray-700">KU Leuven · Major Electrical Engineering / Minor Mechanical Engineering · Graduation: 76%</p>
+              <p className="text-gray-700">KU Leuven · Major Electrical Engineering / Minor Mechanical Engineering</p>
             </div>
           </div>
         </section>
@@ -69,12 +70,12 @@ export default function CV() {
                 </div>
                 <ul className="list-disc list-inside text-gray-700 space-y-1">
                   <li>Three‑stage, Ahuja‑compensated high‑bandwidth output amplifier design for current sensor.</li>
-                  <li>Schematic design and simulations across corners and operating conditions for full spec coverage.</li>
-                  <li>Worked within an analog IC design team; collaborated with system engineering on spec negotiation.</li>
+                  <li>Schematic design and simulations across corners and operating conditions.</li>
+                  <li>Worked within an analog IC design team; collaborated with system-architect on spec negotiation.</li>
                 </ul>
               </div>
               <div className="flex flex-wrap items-baseline justify-between gap-2">
-                <p className="font-semibold">R&D Assistant · Kingspan Light + Air</p>
+                <p className="font-semibold">R&D Assistant · Kingspan Light & Air</p>
                 <span className="text-sm text-gray-500">Jul 2023 – Aug 2023</span>
               </div>
               <ul className="list-disc list-inside text-gray-700 space-y-1">
@@ -92,13 +93,14 @@ export default function CV() {
               <p className="font-semibold">GMSK Receiver</p>
               <ul className="list-disc list-inside space-y-1">
                 <li>Demodulating low‑SNR GMSK signals.</li>
-                <li>Mixed‑signal IC design from system‑level specs through IC simulations and HDL.</li>
+                <li>Mixed‑signal IC design from system‑level specs through mixed-signal simulations.</li>
               </ul>
             </div>
             <div>
               <p className="font-semibold">Autonomous Flying Drone Delivering Power</p>
               <ul className="list-disc list-inside space-y-1">
-                <li>Team of 11; designed hardware (PCBs and coils) for magnetic‑resonance wireless power transfer.</li>
+                <li>Collaberating in a team of 11 students.</li>
+                <li>designed hardware (PCBs and coils) for magnetic‑resonance wireless power transfer.</li>
                 <li>Simultaneous power and data transfer by modulating the power signal.</li>
               </ul>
             </div>
@@ -117,28 +119,15 @@ export default function CV() {
           <h3 className="text-xl font-semibold mb-3">Skills</h3>
           <div className="grid md:grid-cols-2 gap-4 text-gray-700">
             <ul className="list-disc list-inside space-y-1">
+              <li>Cadence: Virtuoso, Innovus & Genus</li>
+              <li>Matlab</li>
+              <li>SystemC</li>
               <li>Verilog</li>
               <li>Matlab</li>
               <li>Python</li>
               <li>Altium Designer</li>
             </ul>
-            <ul className="list-disc list-inside space-y-1">
-              <li>Hard‑working</li>
-              <li>Optimistic</li>
-              <li>Curious</li>
-              <li>Strong mathematical aptitude</li>
-            </ul>
           </div>
-        </section>
-
-        {/* Languages */}
-        <section className="mb-8">
-          <h3 className="text-xl font-semibold mb-3">Languages</h3>
-          <ul className="list-disc list-inside text-gray-700 space-y-1">
-            <li>Dutch - native</li>
-            <li>English - fluent</li>
-            <li>French - conversational</li>
-          </ul>
         </section>
 
         {/* Highlights */}
@@ -148,6 +137,16 @@ export default function CV() {
             <li>2025 Melexis–Columbia grant (covers Columbia tuition cost).</li>
             <li>Highest weighted score for a first-year engineering student 2021-2022 at Kulak Campus.</li>
             <li>2× VWO Finalist (Flemish Math Olympiad) 2019 and 2021, place 6 out of 11.441 students in first round 2020.</li>
+          </ul>
+        </section>
+      
+        {/* Languages */}
+        <section className="mb-8">
+          <h3 className="text-xl font-semibold mb-3">Languages</h3>
+          <ul className="list-disc list-inside text-gray-700 space-y-1">
+            <li>Dutch - native</li>
+            <li>English - fluent</li>
+            <li>French - conversational</li>
           </ul>
         </section>
       </main>
