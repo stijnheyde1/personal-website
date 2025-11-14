@@ -123,6 +123,8 @@ export default function CV() {
               <li>Matlab</li>
               <li>SystemC</li>
               <li>Verilog</li>
+            </ul>
+            <ul className="list-disc list-inside space-y-1">
               <li>Matlab</li>
               <li>Python</li>
               <li>Altium Designer</li>
