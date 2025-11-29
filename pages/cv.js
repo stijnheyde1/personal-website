@@ -69,9 +69,9 @@ export default function CV() {
                   <span className="text-sm text-gray-500">Jul 2025 – Aug 2025</span>
                 </div>
                 <ul className="list-disc list-inside text-gray-700 space-y-1">
-                  <li>Three‑stage, Ahuja‑compensated high‑bandwidth output amplifier design for current sensor.</li>
-                  <li>Schematic design and simulations across corners and operating conditions.</li>
-                  <li>Worked within an analog IC design team; collaborated with system-architect on spec negotiation.</li>
+                  <li>Three‑stage, Ahuja‑compensated high‑bandwidth output amplifier design for current sensor</li>
+                  <li>Schematic design and simulations across corners and operating conditions</li>
+                  <li>Worked within an analog IC design team; collaborated with system-architect on spec negotiation</li>
                 </ul>
               </div>
               <div className="flex flex-wrap items-baseline justify-between gap-2">
@@ -79,7 +79,7 @@ export default function CV() {
                 <span className="text-sm text-gray-500">Jul 2023 – Aug 2023</span>
               </div>
               <ul className="list-disc list-inside text-gray-700 space-y-1">
-                <li>Selected, tested and integrated new sensors in a fire safety system’s central console with focus on low power.</li>
+                <li>Selected, tested and integrated new sensors in a fire safety system’s central console with focus on low power</li>
               </ul>
             </div>
           </div>
@@ -92,23 +92,23 @@ export default function CV() {
             <div>
               <p className="font-semibold">GMSK Receiver</p>
               <ul className="list-disc list-inside space-y-1">
-                <li>Demodulating low‑SNR GMSK signals.</li>
-                <li>Mixed‑signal IC design from system‑level specs through mixed-signal simulations.</li>
+                <li>Demodulating low‑SNR GMSK signals</li>
+                <li>Mixed‑signal IC design from system‑level specs through mixed-signal simulations</li>
               </ul>
             </div>
             <div>
               <p className="font-semibold">Autonomous Flying Drone Delivering Power</p>
               <ul className="list-disc list-inside space-y-1">
-                <li>Collaberating in a team of 11 students.</li>
-                <li>designed hardware (PCBs and coils) for magnetic‑resonance wireless power transfer.</li>
-                <li>Simultaneous power and data transfer by modulating the power signal.</li>
+                <li>Collaberating in a team of 11 students</li>
+                <li>designed hardware (PCBs and coils) for magnetic‑resonance wireless power transfer</li>
+                <li>Simultaneous power and data transfer by modulating the power signal</li>
               </ul>
             </div>
             <div>
               <p className="font-semibold">Symmetrical OTA Design (Cadence)</p>
               <ul className="list-disc list-inside space-y-1">
-                <li>180 nm technology; 90 dB gain and 3 MHz GBW.</li>
-                <li>To be taped out and measured next year.</li>
+                <li>180 nm technology; 90 dB gain and 3 MHz GBW</li>
+                <li>To be taped out and measured next year</li>
               </ul>
             </div>
           </div>
@@ -120,7 +120,6 @@ export default function CV() {
           <div className="grid md:grid-cols-2 gap-4 text-gray-700">
             <ul className="list-disc list-inside space-y-1">
               <li>Cadence: Virtuoso, Innovus & Genus</li>
-              <li>Matlab</li>
               <li>SystemC</li>
               <li>Verilog</li>
             </ul>
@@ -136,9 +135,9 @@ export default function CV() {
         <section className="mb-2">
           <h3 className="text-xl font-semibold mb-3">Academic Achievements</h3>
           <ul className="list-disc list-inside text-gray-700 space-y-1">
-            <li>2025 Melexis–Columbia grant (covers Columbia tuition cost).</li>
-            <li>Highest weighted score for a first-year engineering student 2021-2022 at Kulak Campus.</li>
-            <li>2× VWO Finalist (Flemish Math Olympiad) 2019 and 2021, place 6 out of 11.441 students in first round 2020.</li>
+            <li>2025 Melexis–Columbia grant (covers Columbia tuition cost)</li>
+            <li>Highest weighted score for a first-year engineering student 2021-2022 at Kulak Campus</li>
+            <li>2× VWO Finalist (Flemish Math Olympiad) 2019 and 2021, 6th place out of 11.441 students in first round 2020</li>
           </ul>
         </section>
       
@@ -149,6 +148,15 @@ export default function CV() {
             <li>Dutch - native</li>
             <li>English - fluent</li>
             <li>French - conversational</li>
+          </ul>
+        </section>
+
+        {/* interests */}
+        <section className="mb-8">
+          <h3 className="text-xl font-semibold mb-3">Interests</h3>
+          <ul className="list-disc list-inside text-gray-700 space-y-1">
+            <li>Volunteer at Internation Organization for Youth in NYC, partner of the United Nations active in all UN members countries</li>
+            <li>Ironman age group competitor and into long distance cycling</li>
           </ul>
         </section>
       </main>

@@ -22,6 +22,46 @@ export default function CV() {
 
         <section className="mb-10">
           <div className="flex items-center justify-between mb-2">
+            <h3 className="text-2xl font-semibold">The Two Weeks Before Classes and the Admissions Process</h3>
+            <div className="flex items-center flex-shrink-0">
+              {/* Thin line */}
+              <div className="border-t border-gray-400 w-20 mr-3"></div>
+              {/* Date */}
+              <span className="text-gray-500 text-5sm italic">September 2, 2025</span>
+            </div>
+          </div>
+          In the two weeks before classes started, Columbia held a Student Welcome Day for incoming engineering students.
+          We got an introduction to the university, the engineering school, and some of the resources available on campus.
+          One thing they highlighted was that this year had been the most selective admissions cycle for the engineering faculty so far.
+          Selectivity clearly plays a big role in how top U.S. universities position themselves.
+          Hearing that made me appreciate how anyone who wants to study engineering at the top school in Belgium (which is KU Leuven ofcourse) can start the program.
+          Here, however, the game is played like chess. If you like a sceptical opinion piece,
+          I found a <a href="https://www.nytimes.com/2025/09/22/opinion/college-admissions-seniors-stats.html" target="_blank" rel="noreferrer" className="text-blue-600">good one by The New York Times</a>.
+          Something you could already notice, though, is that every student was here at Columbia for a reason.
+          They were motivated, willing to put in the work, and aiming for far more than just passing their classes.
+          And this brings me to a point the NYT guess essay misses: being surrounded by "top-performing" students is incredibly motivating.
+          That environment is a major part of the value an Ivy League university provides.
+          <div className="flex items-center justify-between mb-2">
+          </div>
+          After the welcome session, no official social activities were planned, so a few of us decided to get pizza together.
+          We ended up walking through Central Park and the Upper East Side, just exploring the area and getting to know each other.
+          During the rest of the weeks before classes, I had a few picnics with international students, went to One Vanderbilt at night among other touristic activities.
+          {/* Images */}
+          <div className="mt-6 grid gap-4">
+            <img
+              src="images/two_weeks.jpg"
+              alt="Chelsea Market"
+              width={1000}
+              height={1000}
+              className="rounded-xl shadow-lg mx-auto"
+            />
+            
+          </div>
+        </section>
+
+
+        <section className="mb-10">
+          <div className="flex items-center justify-between mb-2">
             <h3 className="text-2xl font-semibold">First Day in New York City</h3>
             <div className="flex items-center flex-shrink-0">
               {/* Thin line */}
