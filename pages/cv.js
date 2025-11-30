@@ -122,11 +122,13 @@ export default function CV() {
               <li>Cadence: Virtuoso, Innovus & Genus</li>
               <li>SystemC</li>
               <li>Verilog</li>
+              <li>Altium Designer</li>
             </ul>
             <ul className="list-disc list-inside space-y-1">
               <li>Matlab</li>
               <li>Python</li>
-              <li>Altium Designer</li>
+              <li>C++</li>
+              <li>basic JavaScript (this website)</li>
             </ul>
           </div>
         </section>
