@@ -34,7 +34,7 @@ export default function Home() {
         <section className="mx-auto w-full max-w-2xl mt-10 grid gap-4">
           <div className="rounded-2xl bg-white p-5 shadow">
             <h3 className="text-lg font-semibold">Latest blog post</h3>
-            <p className="mt-1 text-gray-700">Arriving in NYC and the two weeks before classes at Columbia.</p>
+            <p className="mt-1 text-gray-700">Volunteering and Lots of Homework</p>
             <Link href="/blog" className="mt-3 inline-block text-blue-600">Go to Blog →</Link>
           </div>
           <div className="rounded-2xl bg-white p-5 shadow">
