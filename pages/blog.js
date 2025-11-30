@@ -32,7 +32,7 @@ export default function CV() {
               {/* Thin line */}
               <div className="border-t border-gray-400 w-20 mr-3"></div>
               {/* Date */}
-              <span className="text-gray-500 text-5sm italic">Octobre 14, 2025</span>
+              <span className="text-gray-500 text-5sm italic">October 14, 2025</span>
             </div>
           </div>
           11:40 am is not a bad time to have your first class of the day, and that for 4 days of the week.
