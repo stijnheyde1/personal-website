@@ -46,7 +46,7 @@ export default function CV() {
           I like this system better. The many assignments keep things moving, and I'm learning more on a week-to-week basis during the semester. 
           It also fits nicely with my productive momentum, first my internship, then an early starting semester here, 
           and in January I'm working on my thesis in Leuven while everyone else is studying for exams, creating a motivating environment in the libraries.
-          I will also have a well timed break during Christmas and New Year. This academic year works a lot better for me, but it required me to have no re-take exams from last year, which are common in Belgium.
+          I will also have a well timed break during Christmas and New Year. This academic year works a lot better for me, but it requires me to have no re-take exams from last year, which are common in Belgium.
           There is another benefit to the many smaller deadlines, it becomes more manageable when learning the course content broken into small pieces. 
           It is especially useful when juggling multiple courses at the same time as <a href="https://www.wsj.com/articles/SB10001424052748703478704574612052322122442" target="_blank" rel="noreferrer" className="text-blue-600">research suggests</a>, which is where willpower starts to break down. 
           
