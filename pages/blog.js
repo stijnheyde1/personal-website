@@ -81,7 +81,7 @@ export default function CV() {
           {/* Images */}
           <div className="mt-6 grid gap-4">
             <img
-              src="images/volun.png"
+              src="images/kayak.png"
               alt="Chelsea Market"
               width={1000}
               height={1000}
