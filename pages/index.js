@@ -1,4 +1,3 @@
-
 // pages/index.js
 import Link from 'next/link';
 
@@ -22,16 +21,30 @@ export default function Home() {
       {/* Main */}
       <main className="px-4 py-10">
         {/* Hero */}
-        <section className="mx-auto w-full max-w-2xl text-center">
-          <h2 className="text-3xl font-bold tracking-tight">Hi, I’m Stijn Heyde</h2>
-          <p className="mt-3 text-gray-700 leading-7">
-            Belgian Electrical Engineering student (Electronics & Chip Design). Currently documenting my semester at Columbia.
-          </p>
-          
+        <section className="mx-auto w-full max-w-2xl flex flex-col md:flex-row items-center md:items-start md:justify-between gap-8 text-center md:text-left">
+          <div className="md:flex-1">
+            <h2 className="text-3xl font-bold tracking-tight">Hello world, I’m Stijn Heyde</h2>
+            <p className="mt-3 text-gray-700 leading-7">
+              A Belgian Electrical Engineering student specializing in Electronics & Chip Design. 
+              I started this website to document my stay at Columbia University as a Recipient of the Melexis Columbia Grant, 
+              and it is also my personal space on the internet where I share my projects and experiences.
+            </p>
+          </div>
+
+          {/* Profile picture on the right */}
+          <div className="md:flex-none">
+            <div className="h-100 w-100 md:h-50 md:w-50 rounded-full overflow-hidden border-4 border-white shadow-lg bg-gray-200">
+              <img
+                src="/images/profile2.jpg"
+                alt="Profile picture of Stijn Heyde"
+                className="h-full w-full object-cover"
+              />
+            </div>
+          </div>
         </section>
 
         {/* Quick cards */}
-        <section className="mx-auto w-full max-w-2xl mt-10 grid gap-4">
+        <section className="mx-auto w-full max-w-3xl mt-10 grid gap-4">
           <div className="rounded-2xl bg-white p-5 shadow">
             <h3 className="text-lg font-semibold">Latest blog post</h3>
             <p className="mt-1 text-gray-700">Volunteering and Lots of Homework</p>
