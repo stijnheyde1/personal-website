@@ -48,8 +48,9 @@ export default function CV() {
           Even during midterm week, the other workload didn’t pause. Other courses, and even the mm-wave course itself,
           still had homework assignments due, so it ended up being a busy week overall.
 
-          Additionally, my parents were visiting at the same time. 
-          We managed to have breakfast together a few mornings and visit The Met Museum. 
+          Additionally, my parents were visiting at the same time. We managed to have breakfast together a few mornings and visit The Met Museum. 
+          
+          
         </section>
 
 
