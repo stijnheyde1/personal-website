@@ -1,5 +1,5 @@
 // pages/blog.js
-// nog life in nyc: social and food, midterms and parents, final projects and exams
+// nog life in nyc: social and food, midterms and parents, final projects and exams, nod to belgium (ESA data and patrick/steyaert)
 import Link from 'next/link';
 
 export default function CV() {
@@ -23,6 +23,34 @@ export default function CV() {
 
       <main className="max-w-5xl mx-auto p-6">
         <h2 className="text-3xl font-bold mb-6">Blog: Studying at Columbia University</h2>
+
+
+
+        <section className="mb-10">
+          <div className="flex items-center justify-between mb-2">
+            <h3 className="text-2xl font-semibold">Midterms and Parents Visiting</h3>
+            <div className="flex items-center flex-shrink-0">
+              {/* Thin line */}
+              <div className="border-t border-gray-400 w-20 mr-3"></div>
+              {/* Date */}
+              <span className="text-gray-500 text-5sm italic">October 28, 2025</span>
+            </div>
+          </div>
+          At the end of October, I had my midterm exams. Since most of my courses are project- and homework-based, 
+          there were only two actual midterms: one for System-on-Chip Platforms and one for Millimeter-Wave IC Design.
+
+          The System-on-Chip Platforms midterm was fairly straightforward, 
+          for the most part it consisted of theoretical graphing problems making for logical puzzles.
+          The millimeter-wave exam, on the other hand, 
+          was much closer to what I’m used to at KU Leuven: three larger questions focused on calculations and circuit analysis, 
+          illustrating principles used in mm-wave IC design.
+
+          Even during midterm week, the other workload didn’t pause. Other courses, and even the mm-wave course itself,
+          still had homework assignments due, so it ended up being a busy week overall.
+
+          Additionally, my parents were visiting at the same time. 
+          We managed to have breakfast together a few mornings and visit The Met Museum. 
+        </section>
 
 
         <section className="mb-10">
