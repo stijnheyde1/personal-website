@@ -1,5 +1,5 @@
 // pages/blog.js
-// nog life in nyc: social and food, midterms and parents, final projects and exams, nod to belgium (ESA data and patrick/steyaert)
+// nog life in nyc: social and food, final projects and exams, nod to belgium (ESA data and patrick/steyaert)
 import Link from 'next/link';
 
 export default function CV() {
@@ -19,12 +19,61 @@ export default function CV() {
       </header>
 
       
-
-
       <main className="max-w-5xl mx-auto p-6">
         <h2 className="text-3xl font-bold mb-6">Blog: Studying at Columbia University</h2>
 
+        
 
+        <section className="mb-10">
+          <div className="flex items-center justify-between mb-2">
+            <h3 className="text-2xl font-semibold">Food in NYC</h3>
+            <div className="flex items-center flex-shrink-0">
+              {/* Thin line */}
+              <div className="border-t border-gray-400 w-20 mr-3"></div>
+              {/* Date */}
+              <span className="text-gray-500 text-5sm italic">November 15, 2025</span>
+            </div>
+          </div>
+          Food was one of the things I was most curious about before coming here. 
+          Grocery stores here are noticeably more expensive than in Belgium, 
+          but at the same time there are many places where you can get a meal for relatively little money.
+          <div className="flex items-center justify-between mb-2">
+          </div>
+          On campus, Columbia has several food pickup locations and a few all-you-can-eat dining halls. 
+          These are convenient, but generally expensive if you don’t have a dining plan (or even if you have a dining plan). 
+          I only went a few times with friends who were on a plan and could get me in. 
+          John Jay Dining Hall offers a large variety of dishes in an all-you-can-eat format, 
+          all of them taste good, but none of them are healthy. The entry costs around 20 dollars, 
+          which makes it something I don't do regularly.
+          <div className="flex items-center justify-between mb-2">
+          </div>
+          Off campus, things are better. Street food carts are everywhere, and they quickly became a regular option. 
+          I often ended up eating Mexican food, Chinese food, or simple breakfast sandwiches from carts. 
+          For quick meals, these were hard to beat.
+
+          Another popular spot close to campus is Koronet Pizza, about a five-minute walk away, 
+          where they serve slices cut from 32-inch pizzas. One slice is usually enough for a full meal.
+          <div className="flex items-center justify-between mb-2">
+          </div>
+          I also visited some of the more specialized food areas around the city, 
+          like Chinatown, Koreatown, and Little Italy. Downtown Manhattan in particular has a lot of good Asian food options. 
+          Little Italy was less appealing to me, the constant stream of people trying to pull you into restaurants got annoying quickly, 
+          and I didn’t feel the need to go back. 
+          <div className="flex items-center justify-between mb-2">
+          </div>
+          Overall the stereotype of bad food in the US did not hold up in NYC, except for cheap products from grocery stores.
+          {/* Images */}
+          <div className="mt-6 grid gap-4">
+            <img
+              src="images/food.png"
+              alt="Chelsea Market"
+              width={800}
+              height={800}
+              className="rounded-xl shadow-lg mx-auto"
+            />
+            
+          </div>
+        </section>
 
         <section className="mb-10">
           <div className="flex items-center justify-between mb-2">
@@ -49,7 +98,6 @@ export default function CV() {
           still had homework assignments due, so it ended up being a busy week overall.
 
           Additionally, my parents were visiting at the same time. We managed to have breakfast together a few mornings and visit The Met Museum. 
-          
           
         </section>
 
@@ -140,20 +188,20 @@ export default function CV() {
           The 6000-level classes were consistently more interesting, so I ended up choosing an entirely “PhD-level” lineup since it would be a waste to come all the way to NYC and not take
           challanging courses. My final course list looks like this:
           <div>
-            <p className="font-semibold list-inside mt-2"><li>System-on-Chip Platforms</li></p>    
-            This is the SystemC course. The class is very well developed and he professor, originally from Italy, teaches clearly and has a lovely accent. There also is a final project organized as a competition.
+            <ul className="list-disc list-inside font-semibold mt-2"><li>System-on-Chip Platforms</li></ul>    
+            This is the SystemC course. The class is very well developed and the professor, originally from Italy, teaches clearly and has a lovely accent. There also is a final project organized as a competition.
           </div>
           <div>
-            <p className="font-semibold list-inside mt-2"><li>Advances in VLSI Design Automation and Methodology</li></p>    
+            <ul className="list-disc list-inside font-semibold mt-2"><li>Advances in VLSI Design Automation and Methodology</li></ul>    
             A course on the full digital design flow and the CAD tools used in industry. There’s a lot of hands-on work with tools like Genus and Innovus, 
             and we’ll be using ECOs, plugs, and other methods to modify the flow.
           </div>
           <div>
-            <p className="font-semibold list-inside mt-2"><li>Millimeter-Wave IC Design</li></p>    
+            <ul className="list-disc list-inside font-semibold mt-2"><li>Millimeter-Wave IC Design</li></ul>    
             Focused on mm-wave circuits (somewhat predictable), with a 60 GHz receiver project planned at the end of the semester.
           </div>
           <div>
-            <p className="font-semibold list-inside mt-2"><li>Topics course: Harsh-Environment Electronics</li></p>    
+            <ul className="list-disc list-inside font-semibold mt-2"><li>Topics course: Harsh-Environment Electronics</li></ul>    
             A new course at Columbia, taught by early-career professor Savannah Eisner. As the name suggests, it covers circuits designed for extreme conditions.
           </div>
           <div className="flex items-center justify-between mb-2">

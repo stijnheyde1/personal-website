@@ -23,7 +23,7 @@ export default function Home() {
         {/* Hero */}
         <section className="mx-auto w-full max-w-2xl flex flex-col md:flex-row items-center md:items-start md:justify-between gap-8 text-center md:text-left">
           <div className="md:flex-1">
-            <h2 className="text-3xl font-bold tracking-tight">Hello world, I’m Stijn Heyde</h2>
+            <h2 className="text-3xl font-bold tracking-tight">Hi, I’m Stijn Heyde</h2>
             <p className="mt-3 text-gray-700 leading-7">
               A Belgian Electrical Engineering student specializing in Electronics & Chip Design. 
               I started this website to document my stay at Columbia University as a Recipient of the Melexis Columbia Grant, 
