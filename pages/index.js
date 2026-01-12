@@ -1,4 +1,5 @@
 // pages/index.js
+//npm run dev
 import Link from 'next/link';
 
 export default function Home() {

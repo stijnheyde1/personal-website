@@ -1,5 +1,5 @@
 // pages/blog.js
-// nog life in nyc: social and food, final projects and exams, nod to belgium (ESA data and patrick/steyaert)
+// nog life in nyc: holidays, final projects and exams, goodbye
 import Link from 'next/link';
 
 export default function CV() {
@@ -22,6 +22,43 @@ export default function CV() {
       <main className="max-w-5xl mx-auto p-6">
         <h2 className="text-3xl font-bold mb-6">Blog: Studying at Columbia University</h2>
 
+
+        <section className="mb-10">
+          <div className="flex items-center justify-between mb-2">
+            <h3 className="text-2xl font-semibold">Holidays</h3>
+            <div className="flex items-center flex-shrink-0">
+              {/* Thin line */}
+              <div className="border-t border-gray-400 w-20 mr-3"></div>
+              {/* Date */}
+              <span className="text-gray-500 text-5sm italic">November 30, 2025</span>
+            </div>
+          </div>
+          halloween is taken much more serious here than back home. 
+          Weeks in advance, the theme was already visible in the city and on campus, 
+          with decorations and events leading up to the day itself. With our group of friends, 
+          we decided to go for a group costume: the characters from Scooby-Doo, since one of us looked almost exactly like Shaggy.
+          <div className="flex items-center justify-between mb-2">
+          </div>
+          Not long after Halloween came Friendsgiving, a variation of Thanksgiving that’s celebrated with friends instead of family. 
+          Everyone brings a dish for the group, which naturally results in a large and varied buffet. 
+          I brought a tapas board, something that’s commonly referred to here as a charcuterie board. 
+          Others brought dishes included dumplings, mac and cheese, turkey, and several other Thanksgiving classics.
+          <div className="flex items-center justify-between mb-2">
+          </div>
+          We also attended SantaCon, an annual pub crawl where people dress up as Santa Claus. An interesting concept, 
+          but the bars were extremely crowded and after moving it was hard to get into another bar.
+          {/* Images */}
+          <div className="mt-6 grid gap-4">
+            <img
+              src="images/holidays.jpg"
+              alt="Chelsea Market"
+              width={800}
+              height={800}
+              className="rounded-xl shadow-lg mx-auto"
+            />
+            
+          </div>
+        </section>
         
 
         <section className="mb-10">
