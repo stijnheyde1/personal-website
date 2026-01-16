@@ -31,8 +31,7 @@ export default function CV() {
           </div>
           <p className="text-gray-800 leading-7">
             At twelve years old, I stated that I wanted to be an engineer. A lucky guess, perhaps, but one that has shaped my journey ever since. 
-            Now a master’s student in electronics and chip design, I very much appreciate the interwoven nature of mathematics and electrical engineering, 
-            as well as my growing fascination with technologies and research in the field.
+            Now a master’s student in electronics and chip design, I very much appreciate the interwoven nature of mathematics and electrical engineering.
           </p>
         </section>
 
@@ -56,6 +55,16 @@ export default function CV() {
               <p className="text-gray-700">KU Leuven · Major Electrical Engineering / Minor Mechanical Engineering</p>
             </div>
           </div>
+        </section>
+
+        {/* Highlights */}
+        <section className="mb-8">
+          <h3 className="text-xl font-semibold mb-3">Academic Achievements</h3>
+          <ul className="list-disc list-inside text-gray-700 space-y-1">
+            <li>2025 Melexis–Columbia grant (covers Columbia University tuition cost)</li>
+            <li>Highest weighted score for a first-year engineering student 2021-2022 at Kulak Campus</li>
+            <li>2× VWO Finalist (Flemish Math Olympiad) 2019 and 2021, 6th place out of 11.441 students in first round 2020</li>
+          </ul>
         </section>
 
         {/* Experience */}
@@ -90,6 +99,29 @@ export default function CV() {
           <h3 className="text-xl font-semibold mb-3">Projects</h3>
           <div className="space-y-4 text-gray-700">
             <div>
+              <p className="font-semibold">60 GHz Direct-Conversion Receiver Front-End Design</p>
+              <ul className="list-disc list-inside space-y-1">
+                <li>In 90 nm CMOS, including LNA, mixer, VCO with buffer, and baseband amplifier, meeting 50 Ω matching requirements</li>
+                <li>Simulations for input matching, power conversion gain, noise figure, VCO tuning range and phase noise, and 1 dB compression point</li>
+                <li>Performed mmWave passive modeling in ADS, and extracting inductor S-parameters</li>
+              </ul>
+            </div>
+            <div>
+              <p className="font-semibold">Selective Timing Relaxation with Error-Tolerant Flip-Flops (ASIC Design Project)</p>
+              <ul className="list-disc list-inside space-y-1">
+                <li>Integrated KU Leuven research on error-tolerant flip-flops into an industrial Cadence Genus/Innovus ASIC flow</li>
+                <li>Developed automated ECO-based insertion of ETFF cells on critical reg-to-reg paths using post-route timing analysis</li>
+                <li>Python script for quick setup and flow modification to rapidly apply the new flow across different designs</li>
+              </ul>
+            </div>
+            <div>
+              <p className="font-semibold">Adaptive Biasing for Radiation- and Temperature-Robust Analog Circuits in LEO orbit</p>
+              <ul className="list-disc list-inside space-y-1">
+                <li>Made feedback-controlled circuits to stabilize bias current and transconductance under Vth drift and temperature variation</li>
+                <li>Modeled LEO radiation (TID) using SPENVIS and applied worst-case ΔVth and temperature sweeps to evaluate gm and Ibias stability</li>
+              </ul>
+            </div>
+            <div>
               <p className="font-semibold">GMSK Receiver</p>
               <ul className="list-disc list-inside space-y-1">
                 <li>Demodulating low‑SNR GMSK signals</li>
@@ -108,7 +140,7 @@ export default function CV() {
               <p className="font-semibold">Symmetrical OTA Design (Cadence)</p>
               <ul className="list-disc list-inside space-y-1">
                 <li>180 nm technology; 90 dB gain and 3 MHz GBW</li>
-                <li>To be taped out and measured next year</li>
+                <li>To be taped out and measured the next year</li>
               </ul>
             </div>
           </div>
@@ -131,16 +163,6 @@ export default function CV() {
               <li>basic JavaScript (this website)</li>
             </ul>
           </div>
-        </section>
-
-        {/* Highlights */}
-        <section className="mb-2">
-          <h3 className="text-xl font-semibold mb-3">Academic Achievements</h3>
-          <ul className="list-disc list-inside text-gray-700 space-y-1">
-            <li>2025 Melexis–Columbia grant (covers Columbia tuition cost)</li>
-            <li>Highest weighted score for a first-year engineering student 2021-2022 at Kulak Campus</li>
-            <li>2× VWO Finalist (Flemish Math Olympiad) 2019 and 2021, 6th place out of 11.441 students in first round 2020</li>
-          </ul>
         </section>
       
         {/* Languages */}
